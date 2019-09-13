@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Abra cadbra testing">
+    <test name="Regression Testing">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="folder.Smoke"/>
+        </classes>
+    </test>
+</suite>
